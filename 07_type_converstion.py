@@ -14,7 +14,7 @@ sample_str_set = set(sample_str)
 print("set data type:", sample_str_set)
 
 # Accept input from user
-# By default user input cominig from string, we need to convert as what is required datatype
+# By default user input cominig from string, we need to convert as what datatype is required
 
 user_input = input("Enter a number:")
 print(user_input, type(user_input))
@@ -33,3 +33,6 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: '12 23 44 554'
 
 """
+
+split_input = "12 23 44 554".split(" ")
+print(split_input)

@@ -3,3 +3,13 @@ perform adding or changing elemnets to it
 
 - Immutable datatype: Tuple, sting
 - mutable datatype: list, set, dict
+
+# conditions
+
+- if -else block
+- if (mandatory)
+- else (opional)
+- but you should have only one else statement
+
+# exception handling
+- try(mandatory), except(mandatory), else(optional), finally(opional)
